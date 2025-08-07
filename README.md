@@ -60,12 +60,13 @@ Residual correction mechanism
 datasets.py
 Handles data loading and preprocessing for the 4 benchmark time series:
 
-Supported Datasets
-ID	Name	Description
-0	airlines	Monthly airline passengers
-1	colorado_r	Colorado River flow
-2	sunspot	Sunspot activity
-3	lynx	Canadian lynx trappings
+### Supported Datasets
+| ID | Name         | Description                |
+|----|--------------|----------------------------|
+| 0  | `airlines`   | Monthly airline passengers |
+| 1  | `colorado_r` | Colorado River flow        |
+| 2  | `sunspot`    | Sunspot activity           |
+| 3  | `lynx`       | Canadian lynx trappings    |
 
 ---
 
