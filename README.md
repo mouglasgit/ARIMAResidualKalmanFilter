@@ -42,7 +42,7 @@ cd ARIMAResidualKalmanFilter
 pip install -r requirements.txt
 
 
-🧠 Core Components
+## 🧠 Core Components
 ARIMAResidualKalmanFilter.py
 Main implementation of the hybrid ARIMA-Kalman Filter model
 Features:
@@ -64,14 +64,14 @@ ID	Name	Description
 3	lynx	Canadian lynx trappings
 
 
-⚙️ Command Line Interface
-
+## ⚙️ Command Line Interface
+```bash
 python ARIMAResidualKalmanFilter.py --base 2
 
 --base    Time series dataset (0:airlines, 1:colorado_r, 2:sunspot, 3:lynx)
 
 
-📈 Sample Workflow
+## 📈 Sample Workflow
 
 Preprocess data using datasets.py
 
