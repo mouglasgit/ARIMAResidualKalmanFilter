@@ -12,10 +12,10 @@ A lightweight hybrid that retains **ARIMA**'s transparency while auto-correcting
 ---
 
 ## 🏷️ Highlights
-- **Plug-and-play**: drop-in replacement for vanilla ARIMA—minimal hyper-tuning  
+- **Plug-and-play**: drop-in replacement for ARIMA—minimal hyper-tuning  
 - **Fully interpretable**: keeps ARIMA coefficients and exposes learned \(Q\) and \(R\)  
 - **Lean stack**: pure Python, `statsmodels`, and `torch`  
-- **Reproducible notebooks** included
+- **Reproducible code** included
 
 ---
 
@@ -92,4 +92,3 @@ Train Kalman Filter on residuals
 
 Generate forecasts with residual correction
 
-Visualize results and inspect Q/R parameters
