@@ -21,16 +21,18 @@ A lightweight hybrid that retains **ARIMA**'s transparency while auto-correcting
 
 ## 📂 Repository Structure
 
+```
 project/
 ├── data/
-│ ├── airlines2.txt
-│ ├── coloradoRiver.txt
-│ ├── lynx.txt
-│ └── Sunspot.txt
+│   ├── airlines2.txt
+│   ├── coloradoRiver.txt
+│   ├── lynx.txt
+│   └── Sunspot.txt
 ├── ARIMAResidualKalmanFilter.py
 ├── datasets.py
 ├── requirements.txt
 └── README.md
+```
 
 
 ---
@@ -72,6 +74,7 @@ ID	Name	Description
 python ARIMAResidualKalmanFilter.py --base 2
 
 --base    Time series dataset (0:airlines, 1:colorado_r, 2:sunspot, 3:lynx)
+```
 
 ---
 
