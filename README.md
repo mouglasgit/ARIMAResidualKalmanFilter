@@ -41,6 +41,7 @@ git clone https://github.com/mouglasgit/ARIMAResidualKalmanFilter.git
 cd ARIMAResidualKalmanFilter
 pip install -r requirements.txt
 
+---
 
 ## 🧠 Core Components
 ARIMAResidualKalmanFilter.py
@@ -63,6 +64,7 @@ ID	Name	Description
 2	sunspot	Sunspot activity
 3	lynx	Canadian lynx trappings
 
+---
 
 ## ⚙️ Command Line Interface
 ```bash
@@ -70,6 +72,7 @@ python ARIMAResidualKalmanFilter.py --base 2
 
 --base    Time series dataset (0:airlines, 1:colorado_r, 2:sunspot, 3:lynx)
 
+---
 
 ## 📈 Sample Workflow
 
