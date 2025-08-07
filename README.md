@@ -39,6 +39,7 @@ project/
 
 ## 🚀 Installation
 ```bash
+sudo apt install python3.7-dev
 git clone https://github.com/mouglasgit/ARIMAResidualKalmanFilter.git
 cd ARIMAResidualKalmanFilter
 pip install -r requirements.txt
